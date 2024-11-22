@@ -1,0 +1,6 @@
+framework module SPMTest {
+  umbrella header "SPMTest.h"
+  export *
+
+  module * { export * }
+}

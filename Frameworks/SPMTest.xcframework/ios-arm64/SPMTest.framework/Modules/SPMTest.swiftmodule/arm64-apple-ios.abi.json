@@ -1,0 +1,142 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SPMTest",
+    "printedName": "SPMTest",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SPMTest",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "SPMTest",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SPMTest",
+        "printedName": "SPMTest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SPMTest",
+                "printedName": "SPMTest.SPMTest",
+                "usr": "s:7SPMTestAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SPMTestAACABycfc",
+            "mangledName": "$s7SPMTestAACABycfc",
+            "moduleName": "SPMTest",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchPokemon",
+            "printedName": "fetchPokemon(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SPMTestAAC12fetchPokemon10completionyySSc_tF",
+            "mangledName": "$s7SPMTestAAC12fetchPokemon10completionyySSc_tF",
+            "moduleName": "SPMTest",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7SPMTestAAC",
+        "mangledName": "$s7SPMTestAAC",
+        "moduleName": "SPMTest",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/yuri\/Prog\/Zentity\/temp\/SPMTest\/SPMTest\/SPMTest\/SPMTest.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 21,
+      "value": "\"https:\/\/pokeapi.co\/\""
+    },
+    {
+      "filePath": "\/Users\/yuri\/Prog\/Zentity\/temp\/SPMTest\/SPMTest\/SPMTest\/SPMTest.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 25,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yuri\/Prog\/Zentity\/temp\/SPMTest\/SPMTest\/SPMTest\/SPMTest.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 3,
+      "value": "\"api\/v2\/pokemon\/5\""
+    }
+  ]
+}

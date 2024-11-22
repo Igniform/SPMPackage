@@ -11,11 +11,23 @@ let package = Package(
             name: "Package",
             targets: ["Package"]),
     ],
+    dependencies: [
+        .package(
+            url: "https://github.com/Alamofire/Alamofire.git",
+            exact: "5.10.1"
+        )
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "Package"),
+            name: "Package",
+            dependencies: [
+                .target(name: "SPMPackage"),
+                .product(name: "Alamofire", package: "Alamofire")
+            ]
+        ),
+        .binaryTarget(name: "SPMPackage", path: "Frameworks/SPMTest.xcframework"),
         .testTarget(
             name: "PackageTests",
             dependencies: ["Package"]
