@@ -24,7 +24,7 @@ let package = Package(
             name: "Package",
             dependencies: [
                 .target(name: "SPMPackage"),
-                .product(name: "Alamofire", package: "Alamofire")
+                .product(name: "AlamofireDynamic", package: "Alamofire")
             ]
         ),
         .binaryTarget(name: "SPMPackage", path: "Frameworks/SPMTest.xcframework"),
